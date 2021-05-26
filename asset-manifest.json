@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/advicer/static/css/main.264a3faf.chunk.css",
+    "main.js": "/advicer/static/js/main.d4c91a4c.chunk.js",
+    "main.js.map": "/advicer/static/js/main.d4c91a4c.chunk.js.map",
+    "runtime-main.js": "/advicer/static/js/runtime-main.406c2ad8.js",
+    "runtime-main.js.map": "/advicer/static/js/runtime-main.406c2ad8.js.map",
+    "static/css/2.15a7a700.chunk.css": "/advicer/static/css/2.15a7a700.chunk.css",
+    "static/js/2.f73decba.chunk.js": "/advicer/static/js/2.f73decba.chunk.js",
+    "static/js/2.f73decba.chunk.js.map": "/advicer/static/js/2.f73decba.chunk.js.map",
+    "static/js/3.cb2be5b3.chunk.js": "/advicer/static/js/3.cb2be5b3.chunk.js",
+    "static/js/3.cb2be5b3.chunk.js.map": "/advicer/static/js/3.cb2be5b3.chunk.js.map",
+    "index.html": "/advicer/index.html",
+    "static/css/2.15a7a700.chunk.css.map": "/advicer/static/css/2.15a7a700.chunk.css.map",
+    "static/css/main.264a3faf.chunk.css.map": "/advicer/static/css/main.264a3faf.chunk.css.map",
+    "static/js/2.f73decba.chunk.js.LICENSE.txt": "/advicer/static/js/2.f73decba.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/advicer/static/media/bg.8c2ed522.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.406c2ad8.js",
+    "static/css/2.15a7a700.chunk.css",
+    "static/js/2.f73decba.chunk.js",
+    "static/css/main.264a3faf.chunk.css",
+    "static/js/main.d4c91a4c.chunk.js"
+  ]
+}
