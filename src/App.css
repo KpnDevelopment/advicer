@@ -1,38 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Karma:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
-  text-align: center;
+  background: rgba(0, 0, 0, 0.65) url("bg.jpg") no-repeat center center;
+  background-blend-mode: darken !important;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.card {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: fixed !important;
+  text-align: center !important;
+  transform: translate(-50%, -50%);
+  top: 50% !important;
+  left: 50% !important;
+  border-radius: 15px !important;
+  box-shadow: 10px 10px rgba(117, 110, 110, 0.301),
+    -10px -10px rgba(54, 32, 32, 0.301);
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 1.5rem !important;
+  font-family: "Karma", serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 700px) {
+  .card {
+    width: 21rem !important;
   }
-  to {
-    transform: rotate(360deg);
+  .h1 {
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 321px) {
+  .card {
+    width: 19rem !important;
+  }
+  .h1 {
+    font-size: 1rem !important;
   }
 }
